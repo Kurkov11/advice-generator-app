@@ -572,6 +572,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
@@ -584,10 +588,6 @@ video {
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.max-w-cardMaxWidth {
-  max-width: 472px;
 }
 
 .flex-col {
@@ -660,7 +660,7 @@ video {
 }
 
 .text-advice {
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .text-id {
@@ -669,6 +669,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .uppercase {
@@ -706,6 +710,14 @@ video {
 }
 
 @media (min-width: 496px) {
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:max-w-cardMaxWidth {
     max-width: 472px;
   }
@@ -713,10 +725,5 @@ video {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  .lg\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
   }
 }

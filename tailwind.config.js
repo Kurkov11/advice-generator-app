@@ -16,7 +16,7 @@ module.exports = {
         'manrope': 'manrope'
       },
       fontSize: {
-        'advice': '28px',
+        'advice': '26px',
         'id': '0.6rem'
       },
       letterSpacing: {
